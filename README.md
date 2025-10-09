@@ -29,11 +29,35 @@ You can read the full journey here:
 
 ---
 
-## 📊 Evaluation Metrics
+##📊 Evaluation Metrics
 
 The performance is evaluated using:
 
 - **PSNR (Peak Signal-to-Noise Ratio)**
 
 Higher values indicate better reconstruction.
+
+---
+
+## Results
+
+Example: Dual inputs, model output, and ground truth comparison.
+## 🔍 Sample Output
+
+Here’s an example of how the model enhances resolution:
+
+![Sample Output](https://github.com/ArCeUzzs/Dual-Image-Super-Resolution-for-High-Resolution-Optical-Satellite-Image/blob/main/outputSHOW.jpg)
+
+
+> Sample outputs and intermediate visualizations are stored in the `sr_visualization/` directory.
+
+---
+
+## References
+
+* [EDSR Paper (CVPR 2017)](https://arxiv.org/abs/1707.02921)
+* [Proba-V Dataset](https://kelvins.esa.int/proba-v-super-resolution/)
+* [PixelShuffle Docs](https://pytorch.org/docs/stable/generated/torch.nn.PixelShuffle.html)
+
+---
 
