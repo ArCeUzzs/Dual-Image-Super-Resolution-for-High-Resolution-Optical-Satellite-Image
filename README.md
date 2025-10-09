@@ -1,2 +1,3 @@
 # Dual-Image-Super-Resolution-for-High-Resolution-Optical-Satellite-Image
-A deep learning-based Dual-Image Super-Resolution framework built using a modified EDSR (Enhanced Deep Super-Resolution) architecture. The model takes two temporally shifted low-resolution satellite images and fuses them to generate a high-resolution output. Fusion is achieved via simple channel-wise concatenation followed by deep residual refinement.
+This project implements a dual-input super-resolution network that enhances low-resolution (LR) satellite images into high-resolution (HR) outputs using concatenation-based feature fusion and an EDSR backbone.
+The model is built and trained in PyTorch using the Proba-V dataset, which provides multi-temporal low-resolution satellite imagery with corresponding high-resolution references.
