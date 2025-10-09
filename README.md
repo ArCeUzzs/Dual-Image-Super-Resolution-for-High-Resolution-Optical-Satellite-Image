@@ -26,3 +26,14 @@ You can read the full journey here:
   *Discusses training strategy, metrics, loss functions, and how to visualize and interpret the results.*
   
    All concepts are explained clearly with examples, visuals, and reasoning, so don’t worry if you’re new to this!
+
+---
+
+## 📊 Evaluation Metrics
+
+The performance is evaluated using:
+
+- **PSNR (Peak Signal-to-Noise Ratio)**
+
+Higher values indicate better reconstruction.
+
