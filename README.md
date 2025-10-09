@@ -29,6 +29,34 @@ You can read the full journey here:
 
 ---
 
+## Dataset
+* [Main dataset PROBAV](https://drive.google.com/file/d/1BAGjd5ScCXNF2Y6ffBUopUnctqVhLq8J/view)
+* [Preprocessed and final dualsr dataset ](https://kelvins.esa.int/proba-v-super-resolution/data/)
+
+This project uses a preprocessed version of the **Proba-V Super-Resolution Dataset**. The structure is as follows:
+
+```
+
+dual\_sr\_dataset/
+├── train/
+│   ├── low\_res/
+│   │   ├── imgsetXXXX\_LR0.png
+│   │   ├── imgsetXXXX\_LR1.png
+│   └── high\_res/
+│       ├── imgsetXXXX\_HR.png
+├── test/
+│   ├── low\_res/
+│   └── high\_res/
+
+```
+
+Each sample consists of:
+- `LR0`: Low-res image at time t
+- `LR1`: Low-res image at time t+1
+- `HR`: Ground truth high-res image
+
+---
+
 ##📊 Evaluation Metrics
 
 The performance is evaluated using:
