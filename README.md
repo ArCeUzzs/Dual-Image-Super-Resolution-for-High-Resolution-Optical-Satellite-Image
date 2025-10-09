@@ -1,1 +1,2 @@
 # Dual-Image-Super-Resolution-for-High-Resolution-Optical-Satellite-Image
+A deep learning-based Dual-Image Super-Resolution framework built using a modified EDSR (Enhanced Deep Super-Resolution) architecture. The model takes two temporally shifted low-resolution satellite images and fuses them to generate a high-resolution output. Fusion is achieved via simple channel-wise concatenation followed by deep residual refinement.
