@@ -57,7 +57,13 @@ Each sample consists of:
 
 ---
 
-##📊 Evaluation Metrics
+## Model Architecture
+
+The model combines dual inputs using **channel-wise concatenation** after feature extraction and processes the merged tensor through an **EDSR-style backbone** for refinement.
+![Model](https://github.com/ArCeUzzs/Dual-Image-Super-Resolution-for-High-Resolution-Optical-Satellite-Image/blob/main/Architecture.png)
+
+
+## Evaluation Metrics
 
 The performance is evaluated using:
 
